@@ -1,7 +1,6 @@
 {
-  "name": "jquery-form",
-  "description": "a beautiful jQuery plugin for forms",
-  "main": "form.js",
+  "name": "jquery-interact",
+  "description": "a useful jQuery plugin for interacts",
   "authors": [
     "gongchizhou <gongchizhou@gmail.com>"
   ],
