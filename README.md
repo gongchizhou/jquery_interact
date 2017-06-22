@@ -19,4 +19,10 @@ $(function(){
     $('[data-dialog]').dialog();
 })
 ```
-    
+you can pass a Object to control the animate
+   
+```
+$(function(){
+    $('[data-dialog]').dialog({ open:className,close:className });
+})
+```
