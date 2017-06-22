@@ -1,8 +1,8 @@
 ### A Jquery Interacts Plugin 
 
-### Usage
-### `dialog`
-**index.html**
+### `Usage`
+### dialog
+-Html
 ```html
 <button data-dialog="mydialog">Open Me</button>
 <div id="mydialog" class="dialog">
@@ -13,3 +13,10 @@
   </div>
 </div>
 ```
+-Javascript
+```
+$(function(){
+    $('[data-dialog]').dialog();
+})
+```
+    
