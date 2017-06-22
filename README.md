@@ -83,6 +83,6 @@ you can pass a Object to control the animate effect
    
 ```
 $(function(){
-    $$('[data-tab]').tab({ show:className,hide:className });
+    $('[data-tab]').tab({ show:className,hide:className });
 })
 ```
