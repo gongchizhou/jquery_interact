@@ -1,6 +1,6 @@
 ### A Jquery Interacts Plugin 
 
-
+------------------------------
 ### `Usage`
 
 ### dialog
