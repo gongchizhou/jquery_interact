@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/dialog.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <button data-dialog="mydialog">Open Me</button>
+    </div>
+    <div id="mydialog" class="dialog">
+      <div class="dialog_overlay"></div>
+      <div class="dialog_content">
+        <h2><strong>Hello</strong>, This is a dialog box</h2>
+        <div><button data-dialog-close>Close</button></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/dialog.js"></script>
+    <script>
+      $(function(){
+          $('[data-dialog]').dialog();
+      })
+    </script>
+
+  </body>
+</html>

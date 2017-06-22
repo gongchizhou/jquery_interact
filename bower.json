@@ -1,0 +1,17 @@
+{
+  "name": "jquery-form",
+  "description": "a beautiful jQuery plugin for forms",
+  "main": "form.js",
+  "authors": [
+    "gongchizhou <gongchizhou@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

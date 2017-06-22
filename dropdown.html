@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/dropdown.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="dropdown">
+        <button data-dropdown="mydropdown">
+          Drop Me Down!
+        </button>
+        <ul id="mydropdown" class="dropdown_menu">
+          <li data-value="select1">select1</li>
+          <li data-value="select2">select2</li>
+          <li data-value="select3">select3</li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script>
+      $(function(){
+          $('[data-dropdown]').dropdown();
+      })
+    </script>
+
+  </body>
+</html>

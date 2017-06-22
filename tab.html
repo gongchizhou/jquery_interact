@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/tab.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="tab">
+        <ul class="tab_menu" data-tab="mytab">
+          <li><a>tab1</a></li>
+          <li><a>tab2</a></li>
+          <li><a>tab3</a></li>
+          <div class="border"></div>
+        </ul>
+        <div id="mytab" class="tab_content">
+          <div class="tab_list">This is tab 1This is tab 1This is tab 1This is tab 1This is tab 1This is tab 1This is tab 1</div>
+          <div class="tab_list">This is tab 2This is tab 2This is tab 2This is tab 2</div>
+          <div class="tab_list">This is tab 3</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/tab.js"></script>
+    <script>
+      $(function(){
+          $('[data-tab]').tab();
+      })
+    </script>
+
+  </body>
+</html>

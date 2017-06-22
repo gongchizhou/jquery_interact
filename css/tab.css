@@ -1,0 +1,64 @@
+.tab{
+	width: 20%;
+	position: relative;
+}
+.tab_menu{
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+.tab_menu li{
+	float: left;
+	cursor: pointer;
+}
+.tab_menu li a{
+	display: block;
+	color: #56c3f4;
+	padding: 1em 2em;
+	text-decoration: none;
+}
+.tab_menu li:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+.border{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: auto;
+	height: 2px;
+	background-color: #56c3f4;
+	transition: 0.3s ease;
+}
+.tab_content{
+	position: relative;
+	padding: 2em;
+	overflow: hidden;
+	background-color: #fff;
+	transition: 0.3s ease;
+}
+.tab_list{
+	line-height: 1.5em;
+	display: none;
+}
+.tab_list.tab_show{
+	display: block;
+}
+.tab_list.tab_show,
+.tab_list.tab_hide {
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+}
+.tab_list.tab_show {
+	animation-name: anim-in;
+}
+.tab_list.tab_hide {
+	animation-name: anim-out;
+}
+@keyframes anim-in{
+	0%{ opacity: 0;  }
+	100%{ opacity: 1;  }
+}
+@keyframes anim-out{
+	0%{ opacity: 1;  }
+	100%{ opacity: 0;  }
+}
