@@ -1,6 +1,8 @@
 ### A Jquery Interacts Plugin 
 
+
 ### `Usage`
+
 ### dialog
 -Html
 ```html
