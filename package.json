@@ -1,8 +1,7 @@
 {
-  "name": "jquery-form",
+  "name": "jquery-interact",
   "version": "1.0.0",
-  "description": "a beautiful jQuery plugin for forms",
-  "main": "form.js",
+  "description": "a useful jQuery plugin for interacts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
