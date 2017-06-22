@@ -4,7 +4,7 @@
 ### `Usage`
 
 ### dialog
--Html
+- Html
 ```html
 <button data-dialog="mydialog">Open Me</button>
 <div id="mydialog" class="dialog">
@@ -15,7 +15,7 @@
   </div>
 </div>
 ```
--Javascript
+- Javascript
 ```
 $(function(){
     $('[data-dialog]').dialog();
