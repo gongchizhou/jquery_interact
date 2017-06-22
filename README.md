@@ -79,10 +79,10 @@ $(function(){
     $('[data-tab]').tab();
 })
 ```
-you can pass a Object to control the animate effect
+you can pass a Object to set the event type and the default displaying tab
    
 ```
 $(function(){
-    $('[data-tab]').tab({ show:className,hide:className });
+    $('[data-tab]').tab({ event:'mousemove',defaultIndex:2,show:className,hide:className });
 })
 ```
