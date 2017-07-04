@@ -24,7 +24,7 @@
 				$document.on('keydown',function(e){
 					var keyCode = e.keyCode || e.which;
 					if(keyCode === 27 && isOpen){
-						methods.dltoggle.bind(this);
+						methods.toggle.bind(this);
 					}
 				});
 			});
